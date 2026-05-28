@@ -148,3 +148,21 @@ body{
     transform: scale(1.1);
     border: 1px solid #38bdf8;
 }
+.mainimage{
+    height: 350px;
+    width: 350px;
+    align-items: center;
+    margin-top: 110px;
+    margin-left: 250px;
+    animation: float 3s ease-in-out infinite;
+    filter: drop-shadow(0 0 10px #00C4CC);
+}
+@keyframes float{
+    50%{
+        transform: translateY(-20px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
