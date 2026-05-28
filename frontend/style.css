@@ -1,0 +1,150 @@
+
+body{
+    margin: 0;
+    
+}
+.Heading{
+    background-color: #131a31;
+    height: 120px;
+    margin: 0;
+    display: flex;
+    border-bottom: 1px solid white;
+
+}
+.headofweb{
+    color: white;
+    padding-top: 20px;
+    padding-left: 150px;
+    margin-top: 20px;
+}
+.Contents ol{
+    list-style:none;
+    display:flex;
+    justify-content:center; 
+    gap:40px;
+    margin-left:200px;
+    padding:35px;
+}
+.Contents a{
+    text-decoration:none;
+    color:#8E9AAF;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Contents a:hover{
+    color:aliceblue;
+}
+.order{
+    height: 20px;
+    width: 90px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #19254e;
+    color: white;
+    margin-left:200px;
+    margin-top: 40px;
+    font-size:18px;
+    font-weight:bold;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #38bdf8;
+}
+.order:hover{
+    background: linear-gradient(to right,#00C4CC, #7D2AE7);
+}
+#home{
+    background-color: #111a36;
+    height: 600px;
+    padding: 0;
+    display: flex;
+}
+.editionbox{
+    margin-top:80px;
+    margin-left:150px;
+    height: 30px;
+    width: 180px;
+    background-color: #171C4A;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid #7B2FF7;
+    color: #C86BFF;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600p;
+}
+.head1{
+    margin-top: 30px;
+    margin-left:150px;
+    font-size: 50px;
+    font-weight: 1000;
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+.Store{
+    margin-left:150px;
+    font-size: 50px;
+    font-weight: 1000;
+    color: whitesmoke;
+    margin-top: 0;
+    background: linear-gradient(to right,#00C4CC, #7D2AE7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.details{
+    margin-left:150px;
+    font-family: 'Poppins', sans-serif;
+    color:#8E9AAF;
+    font-size: 20px;
+    line-height: 1.5;
+    
+}
+.Shopping{
+    display: flex;
+    gap: 25px;
+    margin-left:150px;
+    
+}
+.shopnow{
+    height: 20px;
+    width: 90px;
+    padding: 15px;
+    background-color: #7c86a5;
+    text-align: center;
+    border-radius: 15px;
+    background: linear-gradient(to right,#00C4CC, #7D2AE7);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000;
+    cursor: pointer;
+    transition: 0.8s ease;
+    
+}
+.shopnow:hover{
+    transform: scale(1.1);
+    box-shadow: 
+    0 0 10px #00C4CC,
+    0 0 20px #7D2AE7,
+    0 0 40px #7D2AE7;
+
+    transform: translateY(-5px);
+}
+.specbutton{
+    height: 20px;
+    width: 100px;
+     background-color: #19254e;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000;
+    cursor: pointer;
+    transition: 0.8s ease;
+}
+.specbutton:hover{
+    transform: scale(1.1);
+    border: 1px solid #38bdf8;
+}
