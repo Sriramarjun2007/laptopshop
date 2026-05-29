@@ -27,3 +27,20 @@ window.addEventListener("scroll", () => {
 
 });
 
+/* MOBILE MENU */
+
+const menu = document.getElementById("menu");
+const nav = document.querySelector(".Contents");
+
+menu.addEventListener("click", () => {
+
+    nav.classList.toggle("active");
+
+    if(nav.classList.contains("active")){
+        menu.innerHTML = "✕";
+    }
+    else{
+        menu.innerHTML = "☰";
+    }
+
+});
