@@ -393,7 +393,7 @@ body{
 }
 
 .popup{
-    background: #1f3066;
+    background: #121d3e;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
@@ -412,5 +412,24 @@ body{
 #informationoofproduct{
     color:#8E9AAF;
     font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000;
+}
+#greeting{
+    color: #8E9AAF;
+    font-weight: 1000;
+}
+#closebutton{
+    height: 50px;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 1000;
+    font-size: 15px;
+    background: linear-gradient(to right,#00C4CC, #7D2AE7);
+    transition: 0.8s ease-in;
+    border: 1px solid #00C4CC;
+}
+#closebutton:hover{
+    transform: scale(1.2);
 }
