@@ -62,9 +62,10 @@ body{
 }
 #home{
     background-color: #111a36;
-    height: 600px;
+    height: 500px;
     padding-top: 120px;
     display: flex;
+    margin-bottom: 0;
     
 }
 .editionbox{
@@ -128,7 +129,7 @@ body{
     cursor: pointer;
     transition: 0.8s ease;
     text-decoration: none;
-    margin-top: 16px;
+    margin-top: 15px;
     
 }
 
@@ -144,7 +145,7 @@ body{
 .specbutton{
     height: 20px;
     width: 100px;
-     background-color: #19254e;
+    background-color: #19254e;
     padding: 15px;
     border-radius: 15px;
     text-align: center;
@@ -153,6 +154,8 @@ body{
     font-weight: 1000;
     cursor: pointer;
     transition: 0.8s ease;
+    text-decoration: none;
+    margin-top: 15px;
 }
 .specbutton:hover{
     transform: scale(1.1);
@@ -180,7 +183,7 @@ body{
 #Laptops{
     background-color: #111a36;
     height: 900px;
-    padding-top: 40px;
+    padding-top: 1px;
     
 }
 .Laptopshead{
@@ -248,10 +251,10 @@ body{
     font-weight: 1000;
 }
 .theme1img2{
-    height: 20px;
+    height: 15px;
     width: 100px;
     background-color: rgb(254, 233, 194);
-    padding: 2px;
+    padding: 4px;
     margin-top: 20px;
     border-radius: 5px;
     text-align: center;
@@ -259,12 +262,13 @@ body{
     font-weight: 1000;
     border: 1px solid orange;
     color: orange;
+    align-items: center;
 }
 .theme2img2{
-    height: 20px;
+    height: 15px;
     width: 120px;
     background-color: rgb(239, 214, 239);
-    padding: 2px;
+    padding: 4px;
     margin-top: 20px;
     border-radius: 5px;
     text-align: center; 
@@ -432,4 +436,75 @@ body{
 }
 #closebutton:hover{
     transform: scale(1.2);
+}
+#Features{
+    background-color: #111a36;
+    height: 900px;
+    padding-top: 1px;
+}
+.featurehead{
+    margin-top: 150px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.topfeature{
+    color: white;
+}
+.topparafeature{
+    color: #8E9AAF;
+    font-size: 25px;
+}
+.featurecontainer{
+    display: flex;
+    gap: 40px;
+    margin-left: 160px;
+}
+.featurecontainer div{
+    margin-top: 30px;
+    height: 300px;
+    width: 210px;
+    background-color: #19254e;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+}
+.GP h2{
+    margin-top: 20px;
+    color: white;   
+}
+.GP p{
+    color: #8E9AAF;
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    font-weight:500;
+}
+.FP h2{
+    margin-top: 20px;
+    color: white;   
+}
+.FP p{
+    color: #8E9AAF;
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    font-weight:500;
+}
+.RK h2{
+    margin-top: 20px;
+    color: white;  
+}
+.RK p{
+    color: #8E9AAF;
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    font-weight:500;
+}
+.LBL h2{
+    margin-top: 20px;
+    color: white; 
+}
+.LBL p{
+    color: #8E9AAF;
+    font-family: 'Poppins', sans-serif;
+    font-size:15px;
+    font-weight:500;
 }
