@@ -439,7 +439,7 @@ body{
 }
 #Features{
     background-color: #111a36;
-    height: 900px;
+    height: 700px;
     padding-top: 1px;
 }
 .featurehead{
@@ -516,4 +516,131 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size:15px;
     font-weight:500;
+}
+@media screen and (max-width: 768px){
+
+    .Heading{
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .headofweb{
+        padding-left: 20px;
+        font-size: 24px;
+    }
+
+    .Contents ol{
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-left: 0;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .order{
+        margin: 10px auto;
+    }
+
+    #home{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding-top: 220px;
+    }
+
+    .editionbox,
+    .head1,
+    .Store,
+    .details,
+    .Shopping{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .head1,
+    .Store{
+        font-size: 35px;
+    }
+
+    .Shopping{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .mainimage{
+        width: 250px;
+        height: 250px;
+        margin: 30px auto;
+    }
+
+    .Laptopshead{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .Products{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .productcontainer{
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .featurecontainer{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .featurecontainer div{
+        width: 80%;
+    }
+
+    .popup{
+        width: 90%;
+        height: auto;
+    }
+
+    #closebutton{
+        width: 90%;
+    }
+
+    #Laptops{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    #Features{
+        height: auto;
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 480px){
+
+    .head1,
+    .Store{
+        font-size: 28px;
+    }
+
+    .details{
+        font-size: 16px;
+    }
+
+    .mainimage{
+        width: 200px;
+        height: 200px;
+    }
+
+    .lappara,
+    .topparafeature{
+        font-size: 18px;
+    }
+
+    .productname{
+        font-size: 20px;
+    }
 }
