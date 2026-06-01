@@ -205,6 +205,7 @@ body{
     display: flex;
     gap: 60px;
     margin-left: 160px;
+    flex-wrap: wrap;
 }
 .Products img{
     height: 200px;
@@ -458,6 +459,10 @@ body{
     display: flex;
     gap: 40px;
     margin-left: 160px;
+     justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 0;
 }
 .featurecontainer div{
     margin-top: 30px;
