@@ -623,31 +623,39 @@ body{
     0 0 20px #7D2AE7,
     0 0 40px #7D2AE7;
 }
-/* Tablet */
+/* =========================
+   Tablet & Mobile
+========================= */
 @media screen and (max-width: 1024px){
 
     .Heading{
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
         height: auto;
+        padding-bottom: 15px;
     }
 
     .headofweb{
-        padding-left: 30px;
+        padding-left: 0;
+        text-align: center;
     }
 
     .Contents ol{
-        margin-left: 20px;
+        margin-left: 0;
+        padding: 15px;
+        flex-wrap: wrap;
         gap: 20px;
     }
 
     .order{
-        margin-left: 20px;
+        margin: 10px 0;
     }
 
     #home{
         flex-direction: column;
         height: auto;
         text-align: center;
+        padding-top: 220px;
     }
 
     .editionbox,
@@ -655,7 +663,8 @@ body{
     .Store,
     .details,
     .Shopping{
-        margin-left: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .Shopping{
@@ -664,53 +673,60 @@ body{
 
     .mainimage{
         margin: 40px auto;
-        width: 300px;
-        height: 300px;
+        width: 280px;
+        height: 280px;
+    }
+
+    .head1,
+    .Store{
+        font-size: 40px;
+    }
+
+    .Laptopshead{
+        margin-left: 0;
+        text-align: center;
     }
 
     .Products{
         justify-content: center;
         margin-left: 0;
+        gap: 30px;
     }
 
     .featurecontainer{
         justify-content: center;
     }
+
+    #Laptops,
+    #Features{
+        height: auto;
+        padding-bottom: 50px;
+    }
 }
-/* Mobile */
+
+/* =========================
+   Mobile
+========================= */
 @media screen and (max-width: 768px){
 
     .headofweb{
         font-size: 24px;
-        padding-left: 15px;
     }
 
     .Contents ol{
-        flex-wrap: wrap;
-        gap: 10px;
-        padding: 10px;
-        margin-left: 0;
-    }
-
-    .order{
-        margin: 10px auto;
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
     }
 
     .head1,
     .Store{
-        font-size: 32px;
-        text-align: center;
+        font-size: 30px;
     }
 
     .details{
         font-size: 16px;
-        text-align: center;
-        padding: 0 20px;
-    }
-
-    .Shopping{
-        flex-wrap: wrap;
-        justify-content: center;
+        padding: 0 15px;
     }
 
     .mainimage{
@@ -720,7 +736,7 @@ body{
 
     .productcontainer{
         width: 90%;
-        max-width: 350px;
+        max-width: 340px;
     }
 
     .Products img{
@@ -731,18 +747,29 @@ body{
         margin: 20px auto;
     }
 
+    .theme{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+    }
+
     .popup{
-        width: 90%;
+        width: 85%;
         height: auto;
     }
 
     #closebutton{
-        width: 90%;
+        width: 100%;
     }
 
     .address{
         width: 90%;
         height: auto;
+        padding: 20px;
+    }
+
+    table{
+        width: 100%;
     }
 
     #name,
@@ -753,6 +780,6 @@ body{
 
     .cancelbutton,
     .confirmbutton{
-        margin: 10px;
+        margin: 10px 5px;
     }
 }

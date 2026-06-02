@@ -1,4 +1,3 @@
-// Hide navbar on scroll
 window.onload = function () {
 
     let lastScroll = 0;
@@ -9,7 +8,7 @@ window.onload = function () {
         let currentScroll = window.pageYOffset;
 
         if (currentScroll > lastScroll) {
-            navbar.style.top = "-130px";
+            navbar.style.top = `-${navbar.offsetHeight}px`;
         } else {
             navbar.style.top = "0";
         }
