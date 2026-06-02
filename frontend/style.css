@@ -623,3 +623,136 @@ body{
     0 0 20px #7D2AE7,
     0 0 40px #7D2AE7;
 }
+/* Tablet */
+@media screen and (max-width: 1024px){
+
+    .Heading{
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .headofweb{
+        padding-left: 30px;
+    }
+
+    .Contents ol{
+        margin-left: 20px;
+        gap: 20px;
+    }
+
+    .order{
+        margin-left: 20px;
+    }
+
+    #home{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .editionbox,
+    .head1,
+    .Store,
+    .details,
+    .Shopping{
+        margin-left: 0;
+    }
+
+    .Shopping{
+        justify-content: center;
+    }
+
+    .mainimage{
+        margin: 40px auto;
+        width: 300px;
+        height: 300px;
+    }
+
+    .Products{
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .featurecontainer{
+        justify-content: center;
+    }
+}
+/* Mobile */
+@media screen and (max-width: 768px){
+
+    .headofweb{
+        font-size: 24px;
+        padding-left: 15px;
+    }
+
+    .Contents ol{
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+        margin-left: 0;
+    }
+
+    .order{
+        margin: 10px auto;
+    }
+
+    .head1,
+    .Store{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .details{
+        font-size: 16px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .Shopping{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mainimage{
+        width: 220px;
+        height: 220px;
+    }
+
+    .productcontainer{
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .Products img{
+        width: 150px;
+        height: 150px;
+        padding-left: 0;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .popup{
+        width: 90%;
+        height: auto;
+    }
+
+    #closebutton{
+        width: 90%;
+    }
+
+    .address{
+        width: 90%;
+        height: auto;
+    }
+
+    #name,
+    #mobile,
+    #address{
+        width: 90%;
+    }
+
+    .cancelbutton,
+    .confirmbutton{
+        margin: 10px;
+    }
+}
