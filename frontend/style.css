@@ -523,7 +523,7 @@ body{
     font-weight:500;
 }
 #addressanddetails{
-    display: block;
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -533,19 +533,93 @@ body{
     z-index: 1000;
     justify-content: center;
     align-items: center;
-    padding-left:500px;
-    padding-top: 100px;
+    /* padding-left:500px;
+    padding-top: 100px; */
 
 }
 .address{
-    background: #121d3e;
+    background: #16224a;;
     padding: 30px;
     border-radius: 10px;
     text-align: center;
-    width: 400px;
+    width: 450px;
     height: 300px;
-    border: 1px solid #00C4CC;
+    border: 2px solid #00C4CC;
     align-items: center;
     text-align: center;
+     border-radius: 20px;
 }
-
+.address h1{
+    color: #ffffff; ;
+}
+#labelcontent{
+    color: #cbd5e1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    }
+#name{
+    height: 25px;
+    width: 230px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    background: #1e2f5c;
+    color: white;
+    border: 1px solid #00C4CC;
+}
+#mobile{
+    height: 25px;
+    width: 230px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+    background: #1e2f5c;
+    color: white;
+    border: 1px solid #00C4CC;
+}
+#address{
+    height: 45px;
+    width: 220px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    background: #1e2f5c;
+    color: white;
+    border: 1px solid #00C4CC;
+    resize: none;
+}
+.cancelbutton{
+    height: 20px;
+    width: 100px;
+    margin-left: 120px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: whitesmoke;
+    background: #1e2f5c;
+    border: 1px solid #00C4CC;
+    text-align: center;
+    align-items: center;
+}
+.cancelbutton:hover{
+    box-shadow:
+    0 0 10px #00C4CC,
+    0 0 20px #7D2AE7,
+    0 0 40px #7D2AE7;
+}
+.confirmbutton{
+    height: 20px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: whitesmoke;
+    background: #1e2f5c;
+    border: 1px solid #00C4CC;
+    text-align: center;
+    align-items: center;
+}
+.confirmbutton:hover{
+    box-shadow:
+    0 0 10px #00C4CC,
+    0 0 20px #7D2AE7,
+    0 0 40px #7D2AE7;
+}
