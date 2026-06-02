@@ -542,7 +542,7 @@ body{
     padding: 30px;
     border-radius: 10px;
     text-align: center;
-    width: 450px;
+    width: 410px;
     height: 300px;
     border: 2px solid #00C4CC;
     align-items: center;
@@ -556,30 +556,47 @@ body{
     color: #cbd5e1;
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
+    padding-left: 35px;
     }
 #name{
     height: 25px;
-    width: 230px;
+    width: 200px;
     text-decoration: none;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     background: #1e2f5c;
     color: white;
     border: 1px solid #00C4CC;
+    transition: 0.8s ease;
+}
+#name:hover{
+    transform: scale(1.1);
+    box-shadow:
+    0 0 10px #00C4CC,
+    0 0 20px #7D2AE7,
+    0 0 40px #7D2AE7;
 }
 #mobile{
     height: 25px;
-    width: 230px;
+    width: 200px;
     text-decoration: none;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     background: #1e2f5c;
     color: white;
     border: 1px solid #00C4CC;
+    transition: 0.8s ease;
+}
+#mobile:hover{
+    transform: scale(1.1);
+    box-shadow:
+    0 0 10px #00C4CC,
+    0 0 20px #7D2AE7,
+    0 0 40px #7D2AE7;
 }
 #address{
-    height: 45px;
-    width: 220px;
+    height: 25px;
+    width: 200px;
     text-decoration: none;
     border-radius: 10px;
     padding: 10px;
@@ -587,6 +604,14 @@ body{
     color: white;
     border: 1px solid #00C4CC;
     resize: none;
+    transition: 0.8s ease;
+}
+#address:hover{
+    transform: scale(1.1);
+    box-shadow:
+    0 0 10px #00C4CC,
+    0 0 20px #7D2AE7,
+    0 0 40px #7D2AE7;
 }
 .cancelbutton{
     height: 20px;
