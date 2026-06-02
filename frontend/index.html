@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -113,22 +113,52 @@
         </section>
     </section>
     <div class="overlay" id="overlay">
-    <div class="popup">
-        <h1 class="pophead">Order Confirmed ✅</h1>
-        <p class="poppara">Quantum Channel<br> Established!!</p>
-        <p id="informationoofproduct">You have initiated pre-order protocols for</p>
-        <p id="productpop"></p>
-        <p id="moneypop"></p>
-        <p id="greeting">A digital representative will transmit connection keys to your terminal shortly.</p><br>
-        <button id="closebutton"onclick="closepopup()">Acknowledge</button>
+        <div class="popup">
+            <h1 class="pophead">Order Confirmed ✅</h1>
+            <p class="poppara">Quantum Channel<br> Established!!</p>
+            <p id="informationoofproduct">You have initiated pre-order protocols for</p>
+            <p id="productpop"></p>
+            <p id="moneypop"></p>
+            <p id="greeting">A digital representative will transmit connection keys to your terminal shortly.</p><br>
+            <button id="closebutton"onclick="closepopup()">Acknowledge</button>
+        </div>
     </div>
-</div>
+    <div id="addressanddetails">
+        <div class="address">
+            <h1>Enter your details</h1>
+           <form id="myForm">
+                <table>
+                    <tr>
+                        <td><label for="name">Enter your Name:</label></td>
+                        <td><input type="text" id="name" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="mobile">Mobile Number:</label></td>
+                        <td><input type="tel" id="mobile" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="address">Address:</label></td>
+                        <td><input  id="address" required></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" style="text-align:center;">
+                            <button type="submit" onclick="event()">Confirm</button>
+                            <button type="button" onclick="cancel()">Cancel</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
 
 
- -->
 
 
 
@@ -146,7 +176,8 @@
 
 
 
- <!DOCTYPE html>
+
+ <!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -188,4 +219,4 @@
 </div>
 
 </body>
-</html> 
+</html>  -->

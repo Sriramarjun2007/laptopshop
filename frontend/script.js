@@ -75,3 +75,39 @@ function closepopup(){
     document.getElementById("overlay").style.display = "none";
     alert("Our agent will reach you shorty......");
 }
+document.getElementById("myForm").addEventListener("submit", function(event) {
+
+    let name = document.getElementById("name").value.trim();
+    let mobile = document.getElementById("mobile").value.trim();
+    let address = document.getElementById("address").value.trim();
+
+    if (name === "") {
+        alert("Please enter your name");
+        event.preventDefault();
+        return;
+    }
+
+    if (!/^[A-Za-z ]+$/.test(name)) {
+        alert("Name should contain only letters");
+        event.preventDefault();
+        return;
+    }
+
+    if (!/^[0-9]{10}$/.test(mobile)) {
+        alert("Mobile number must be 10 digits");
+        event.preventDefault();
+        return;
+    }
+
+    if (address.length < 5) {
+        alert("Please enter a valid address");
+        event.preventDefault();
+        return;
+    }
+
+    alert("Form submitted successfully!");
+    
+});
+function cancel(){
+    document.getElementById("addressanddetails").style.display="none";
+}
