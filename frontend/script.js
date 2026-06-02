@@ -18,10 +18,6 @@ window.onload = function () {
         lastScroll = currentScroll;
 
     });
-
-    /* MOBILE MENU */
-
-    const menu = document.getElementById("menu");
     
 };
 
